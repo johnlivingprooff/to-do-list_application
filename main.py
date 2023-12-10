@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """main module contains user's to-do operations"""
-from functions import Task
+from tasks.functions import Task
 
 
 

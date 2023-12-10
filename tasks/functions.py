@@ -33,7 +33,7 @@ class Task:
         for key, value in cls.__tasks.items():
             print(f"{key}: {value[0]}")
 
-        task_to_update = int(input("What task would you like to update?\n-> "))
+        task_to_update = str(input("What task would you like to update?\n-> "))
         change = input("Change Title / Description? (type 'title' or 'desc') ").lower()
 
         if change == "title":
